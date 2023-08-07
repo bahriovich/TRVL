@@ -1,0 +1,285 @@
+.intro {
+    display: flex;
+    height: 107vh;
+    margin-top: 2rem;
+}
+
+.intro>img {
+    flex: 1 1;
+    position: relative;
+    opacity: 10%;
+    width: 100%;
+    height: 906px;
+    top: 0px;
+}
+
+/* left side styling */
+.i-left {
+    display: flex;
+    position: absolute;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    top: 14rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.i-name> :nth-child(1) {
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.i-name> :nth-child(2) {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.i-name> :nth-child(3) {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 65%;
+}
+
+
+.i-search {
+    width: 780px;
+    height: 128px;
+    margin-top: 60px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.i-s-destination {
+    position: absolute;
+    left: 49px;
+}
+
+.i-s-destination>* {
+    display: block;
+}
+
+.i-s-date {
+    position: absolute;
+    left: 206px;
+}
+
+.i-s-date>* {
+    display: block;
+}
+
+.i-s-people {
+    position: absolute;
+    left: 360px;
+}
+
+.i-s-people>* {
+    display: block;
+}
+
+.i-s-button {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    border-radius: 32px;
+    cursor: pointer;
+    left: 33rem;
+    top: 12px;
+}
+
+.i-s-button>img {
+    position: absolute;
+    width: 44px;
+    height: 43px;
+    left: 32px;
+    top: 31px;
+}
+
+
+/* right side styling */
+/*
+.i-right {
+    flex: 1;
+    position: relative;
+}
+*/
+.i-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right> :nth-child(1) {
+    width: 610px;
+    right: 0px;
+    top: -4px;
+}
+
+.i-right> :nth-child(2) {
+    top: 97px;
+    left: 40rem;
+    width: 33rem;
+}
+
+
+@media screen and (min-width: 1400px) and (max-width : 1600px) {
+    .intro {
+        height: 80vh;
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width : 1400px) {
+    .i-right> :nth-child(2) {
+        top: 97px;
+        left: 30rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width : 1200px) {
+    .i-right> :nth-child(1) {
+        width: 550px;
+    }
+
+    .i-right> :nth-child(2) {
+        top: 97px;
+        left: 25rem;
+        width: 20rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width : 1100px) {
+    .i-right> :nth-child(1) {
+        display: none;
+    }
+
+    .i-right> :nth-child(2) {
+        top: 230px;
+        left: 30rem;
+        width: 20rem;
+    }
+
+    .i-search {
+        width: 720px;
+    }
+
+    .i-s-button {
+        left: 30rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width : 1000px) {
+    .i-right> :nth-child(1) {
+        display: none;
+    }
+
+    .i-right> :nth-child(2) {
+        display: none;
+    }
+
+    .i-search {
+        width: 670px;
+        height: 100px;
+    }
+
+    .i-s-button {
+        left: 29rem;
+        width: 80px;
+        height: 80px;
+    }
+
+    .i-s-button>img {
+        left: 22px;
+        top: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width : 800px) {
+    .i-right> :nth-child(1) {
+        display: none;
+    }
+
+    .i-right> :nth-child(2) {
+        display: none;
+    }
+
+    .i-search {
+        width: 500px;
+        height: 80px;
+    }
+
+    .i-s-button {
+        left: 21rem;
+        width: 67px;
+        height: 60px;
+    }
+
+    .i-s-destination {
+        left: 23px;
+    }
+
+    .i-s-date {
+        left: 150px;
+    }
+
+    .i-s-people {
+        left: 263px;
+    }
+
+    .i-s-button>img {
+        left: 20px;
+        top: 16px;
+        width: 30px;
+        height: 31px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width : 600px) {
+    .i-right> :nth-child(1) {
+        display: none;
+    }
+
+    .i-right> :nth-child(2) {
+        display: none;
+    }
+
+    .i-search {
+        width: 500px;
+        height: 80px;
+    }
+
+    .i-s-button {
+        left: 21rem;
+        width: 67px;
+        height: 60px;
+    }
+
+    .i-s-destination {
+        left: 23px;
+    }
+
+    .i-s-date {
+        left: 150px;
+    }
+
+    .i-s-people {
+        left: 263px;
+    }
+
+    .i-s-button>img {
+        left: 20px;
+        top: 16px;
+        width: 30px;
+        height: 31px;
+    }
+}

@@ -1,0 +1,161 @@
+.service {
+    display: flex;
+    height: 96vh;
+    margin-top: 3rem;
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.s-name {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.s-name> :nth-child(1) {
+    color: var(--orange);
+    font-weight: bolder;
+}
+
+.s-name> :nth-child(2) {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.s-offers {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 88px;
+    gap: 1.5rem;
+}
+
+.s-o-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.s-o-g-image {
+    width: 84px;
+    height: 76px;
+    position: relative;
+    border-radius: 32px;
+}
+
+.s-o-g-image>img {
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 16px;
+}
+
+.s-o-g-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.s-o-g-name> :nth-child(1) {
+    font-weight: 900;
+}
+
+/* right side styling */
+
+.s-right>* {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.s-right> :nth-child(1) {
+    width: 27rem;
+    right: 0px;
+    top: 2241px;
+}
+
+.s-right> :nth-child(2) {
+    position: absolute;
+    width: 25rem;
+    right: 10rem;
+}
+
+@media screen and (min-width: 1200px ) and (max-width: 1300px) {
+    .s-right> :nth-child(1) {
+        width: 22rem;
+        top: 2220px;
+    }
+
+    .s-right> :nth-child(2) {
+        position: absolute;
+        width: 20rem;
+        right: 9rem;
+    }
+
+}
+
+@media screen and (min-width: 1100px) and (max-width : 1200px) {
+    .s-right> :nth-child(1) {
+        width: 23rem;
+        top: 2400px;
+    }
+
+    .s-right> :nth-child(2) {
+        position: absolute;
+        width: 19rem;
+        right: 9rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width : 1100px) {
+    .s-right> :nth-child(1) {
+        display: none;
+    }
+
+    .s-right> :nth-child(2) {
+        right: 4rem;
+        width: 19rem;
+        top: 2260px;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width : 1000px) {
+    .s-right> :nth-child(1) {
+        display: none;
+    }
+
+    .s-right> :nth-child(2) {
+        right: 0.5rem;
+        width: 15rem;
+        top: 2140px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width : 800px) {
+    .s-right> :nth-child(1) {
+        display: none;
+    }
+
+    .s-right> :nth-child(2) {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width : 600px) {
+    .s-right> :nth-child(1) {
+        display: none;
+    }
+
+    .s-right> :nth-child(2) {
+        display: none;
+    }
+
+}

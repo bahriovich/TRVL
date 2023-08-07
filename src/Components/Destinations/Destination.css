@@ -1,0 +1,40 @@
+
+.destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.cards{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards > *{
+    display: inline-block;
+    margin: 10px;
+}
+
+.destination span:nth-of-type(1){
+    color: var(--orange);
+    font-size: 20px;
+    bottom: 73px;
+    left: 22px;
+}
+
+.destination span:nth-of-type(2){
+    font-size: 59px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1000px) and (max-width : 1200px) {
+    .destination {
+        height: 190vh;
+    }
+}

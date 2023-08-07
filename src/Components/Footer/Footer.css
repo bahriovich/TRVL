@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 150px;
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.col > h1 {
+    font-weight: bolder;
+}
+
+.line {
+    margin: auto;
+}
+
+.line > img {
+    width: 100%;
+}
+
+.footer_sub > p {
+    text-align: center;
+    color: rgba(39, 36, 68, 0.7);
+}
