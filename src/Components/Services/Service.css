@@ -86,14 +86,14 @@
 
 @media screen and (min-width: 1200px ) and (max-width: 1300px) {
     .s-right> :nth-child(1) {
-        width: 22rem;
-        top: 2220px;
+        display: none;
     }
 
     .s-right> :nth-child(2) {
         position: absolute;
         width: 20rem;
         right: 9rem;
+        top: 152rem;
     }
 
 }
@@ -101,13 +101,14 @@
 @media screen and (min-width: 1100px) and (max-width : 1200px) {
     .s-right> :nth-child(1) {
         width: 23rem;
-        top: 2400px;
+        top: 2540px;
     }
 
     .s-right> :nth-child(2) {
         position: absolute;
         width: 19rem;
-        right: 9rem;
+        right: 6rem;
+        top: 117rem;
     }
 
 }
@@ -120,7 +121,7 @@
     .s-right> :nth-child(2) {
         right: 4rem;
         width: 19rem;
-        top: 2260px;
+        top: 2150px;
     }
 
 }
@@ -133,7 +134,7 @@
     .s-right> :nth-child(2) {
         right: 0.5rem;
         width: 15rem;
-        top: 2140px;
+        top: 1994px;
     }
 
 }

@@ -20,7 +20,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
-    top: 14rem;
+    top: 10rem;
 }
 
 .i-name {
@@ -151,8 +151,8 @@
     }
 
     .i-right> :nth-child(2) {
-        top: 97px;
-        left: 25rem;
+        top: 147px;
+        left: 32rem;
         width: 20rem;
     }
 }
